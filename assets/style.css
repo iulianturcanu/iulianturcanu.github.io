@@ -1,7 +1,9 @@
 
 body{
-  background-size: cover;
+  background: linear-gradient(110deg, #e8aeef 60%, #eee 60%);;
+  font-family: 'Acme';
 }
+
 
 #wrapper{
   margin-left: 10rem;
@@ -20,6 +22,7 @@ body{
   width:200px;
   height:auto;
   border:none;
+
 
 }
 
