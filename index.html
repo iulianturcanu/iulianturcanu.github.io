@@ -1,10 +1,20 @@
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-151914454-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-151914454-1');
+</script>
   <title>Iulian Turcanu Personal Website</title>
   <meta charset="utf-8">
+  <script src="assets/scripts.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
-  <link rel="stylesheet" type="text/css" href="assets/style.css">
+  <link rel="stylesheet" href="assets/style.css"/>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" type="text/css">
   <link href='https://fonts.googleapis.com/css?family=Calibri' rel='stylesheet'>
@@ -15,14 +25,44 @@
     <a href="https://www.facebook.com/iulian.turcanu.927" class="fa fa-facebook" target="_blank"></a>
     <a href="https://github.com/iulianturcanu" class="fa fa-github" target="_blank"></a>
     <a href="https://www.linkedin.com/in/iulian-turcanu-403703180/" class="fa fa-linkedin" target="_blank"></a>
-    <a href="assets/Resume_Iulian_Turcanu" target="_blank" title="Opens in new window">Resume</a>
+    <a href="assets/ResumeIulianTurcanu.pdf"  target="_blank" title="Opens in new window">Have a look at my resume</a>
+    <button id="aboutBtn" onclick = "makeVisible()">About</button>
   </nav>
+  <div id="content">
+    <h2 id="contentHeader">Projects</h2>
+      <ol>
+        <li>
+          <h3><a href='https://streetartottawa.ca/' target="_blank" title="Opens in new window" >streetartottawa.ca</a></h3> 
+          <p>An amazing website that showcases Ottawa's vibrant street art. 
+              Developed and implemented parts of the site responsible for art data query from Google Firebase using REST API.
+              Created functionality to convert query results to react image components.  
+              Learned how to use Google Analytics to monitor and understand engagement. 
+              </p>
+        </li>
+        <li>
+          <h3>This website</h3>
+          <p>Created this website using Github Pages, HTML, CSS, JavaScript</p>
+        </li>
+      </ol>
+  </div>
+  
+  <div id="about">
+    <div>
+      <img id = "image" src = "media/IulianTurcanu_pic.jpg"/>
+    </div>
+    <div id = "info">
+      <h2>Hi. I am Iulian</h2>
+      <p>I am an aspiring software developer, dedicated to mastering the craft of full-stack software development.
+        In my free time, I work on personal projects like streetartottawa.ca and my personal website.
+        During the day I am actively studying for my Computer Programmer degree at <a href='http://www.algonquincollege.com/' target="_blank" title="Opens in new window">Algonquin College.</a>
+        Love a good book.</p>
+    </div>
+  </div>
+
 
 
     <footer id="footer">
-
-
-
+    <p>&copy; Copyright 2019 Iulian Turcanu</p> 
     </footer>
 
 </body>
