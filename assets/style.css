@@ -5,17 +5,27 @@
   font-family: Montserrat;
 }
 
-
+@media screen and (min-width: 550px){
 #image{
     width: 50%;
     height: auto;
     margin-left: auto;
-    padding-left: auto;
 }
 
 span{
   padding: auto;
   margin: auto;
+}
+}
+
+@media screen and (max-width: 550px){
+#image{
+    width: 100%;
+}
+
+span{
+  width: 100% 
+}
 }
 
  .indexLinks:link{
