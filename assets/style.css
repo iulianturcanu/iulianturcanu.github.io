@@ -2,18 +2,20 @@
 #content{
     margin: 10 px;
     padding: 10 px
-    width: 60%;
     position: absolute;
     left: 0px;
+    margin: 10px;
     font-family: Montserrat;
 }
 
 
 #image{
     display: block;
-    width: 30%;
+    width: 20%;
+    height: auto;
     position: absolute;
     right: 0px;
+    margin: 10px;
     padding: 10px;
 }
 
