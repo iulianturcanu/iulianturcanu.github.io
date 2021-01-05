@@ -9,13 +9,13 @@
 #image{
     width: auto;
     height: auto;
-    margin-left: 60px;
-    padding-left: 20px;
+    margin-left: auto;
+    padding-left: auto;
 }
 
 span{
   padding: 20px;
-  margin-left: 200px;
+  margin-left: 20px;
 }
 
  .indexLinks:link{
