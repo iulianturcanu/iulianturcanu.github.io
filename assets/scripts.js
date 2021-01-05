@@ -6,3 +6,7 @@ function makeVisible(){
         x.style.display = "none";
     }
 }
+
+$(document).ready(function() {
+  $("#includedHeader").load("header.html");
+});
