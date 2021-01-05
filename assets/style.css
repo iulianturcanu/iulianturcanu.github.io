@@ -1,8 +1,10 @@
 
 #content{
-    margin: auto;
+    margin: 10 px;
+    padding: 10 px
     width: 60%;
-    padding: 10px;
+    position: absolute;
+    left: 0px;
     font-family: Montserrat;
 }
 
@@ -10,8 +12,9 @@
 #image{
     display: block;
     width: 30%;
-    float: left;
-    padding: 5px;
+    position: absolute;
+    right: 0px;
+    padding: 10px;
 }
 
 
