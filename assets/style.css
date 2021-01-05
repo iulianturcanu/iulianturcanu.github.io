@@ -63,8 +63,19 @@ a:link{
    margin-bottom: 10px;
    padding-top: 10px;
    padding-bottom: 10px;
-   text-align: center;
  }
+
+ #navbar{
+   text-align: center;
+   list-style: none;
+ }
+
+ #navbar li{
+   text-align: center;
+   display: inline-block;
+ }
+
+
 
  #includedFooter{
    position: fixed;
