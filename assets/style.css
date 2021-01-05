@@ -63,6 +63,7 @@ a:link{
    margin-bottom: 10px;
    padding-top: 10px;
    padding-bottom: 10px;
+   text-align: center;
  }
 
  #includedFooter{
@@ -76,6 +77,6 @@ a:link{
    padding-top: 5px;
    padding-bottom: 2px;
    text-align: center;
-   color: #B6A9A9;
+   color: #black;
    font-family: Montserrat;
  }
