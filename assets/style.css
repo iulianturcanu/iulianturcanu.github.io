@@ -7,15 +7,15 @@
 
 
 #image{
-    width: auto;
+    width: 50%;
     height: auto;
     margin-left: auto;
     padding-left: auto;
 }
 
 span{
-  padding: 20px;
-  margin-left: 20px;
+  padding: auto;
+  margin: auto;
 }
 
  .indexLinks:link{
