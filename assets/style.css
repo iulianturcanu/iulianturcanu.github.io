@@ -1,12 +1,4 @@
-.fa {
-  float: right;
-  padding: 10px;
-  font-size: 40px;
-  width: 30px;
-  text-align: center;
-  text-decoration: none;
 
-}
 
 button{
   border: none;
@@ -20,23 +12,12 @@ button{
 }
 
 
-nav {
+/* nav {
     padding: 20px;
     margin: 20px 20px 20px 20px;
-}
+} */
 
-footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    width: 100%;
-    padding: 30px;
-    margin-top: 30;
-    text-align: center;
-    color: #B6A9A9;
-    font-family: Montserrat;
-}
+
 
 #content{
     margin: auto;
@@ -45,13 +26,6 @@ footer {
     font-family: Montserrat;
 }
 
-#about{
-    display: none;
-    margin: auto;
-    width: 60%;
-    padding: 10px;
-    font-family: Montserrat;
-}
 
 #image{
     display: block;
@@ -92,8 +66,16 @@ a:link{
  }
 
  #includedFooter{
+   position: fixed;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   width: 100%;
    margin-top: 10px;
    margin-bottom: 3px;
    padding-top: 5px;
    padding-bottom: 2px;
+   text-align: center;
+   color: #B6A9A9;
+   font-family: Montserrat;
  }
