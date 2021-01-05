@@ -3,7 +3,7 @@
 /* on PC */
 @media screen and (min-width: 550px){
 #image{
-    width: 50%;
+    width: 30%;
     height: auto;
     margin-left: auto;
 }
@@ -74,7 +74,7 @@ span{
 
  .indexLinks:link{
    color: blue;
-   text-decoration none:
+   text-decoration: none;
  }
 
  .indexLinks:visited{
@@ -93,7 +93,7 @@ span{
    padding-top: 5px;
    padding-bottom: 2px;
    text-align: center;
-   color: #black;
+   color: black;
    font-family: Montserrat;
    font-size: x-small;
  }
