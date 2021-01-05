@@ -85,8 +85,15 @@ a:link{
  }
 
  #includedHeader{
-   margin-top: 10px;
+   margin-top: 5px;
    margin-bottom: 10px;
    padding-top: 10px;
    padding-bottom: 10px;
+ }
+
+ #includedFooter{
+   margin-top: 10px;
+   margin-bottom: 3px;
+   padding-top: 5px;
+   padding-bottom: 2px;
  }
