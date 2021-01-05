@@ -27,6 +27,16 @@ a:link{
 
  }
 
+ .indexLinks:link{
+   color: blue;
+   text-decoration:
+ }
+
+ .indexLinks:visited{
+   color: purple;
+   text-decoration: underline;
+ }
+
  #resume{
    font-family: Montserrat;
  }
