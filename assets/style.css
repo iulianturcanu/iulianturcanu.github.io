@@ -41,6 +41,13 @@ span{
   padding-right: 40px;
 }
 
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  padding-left: 200px;
+}
+
 .column {
   flex: 50%;
   max-width: 50%;
@@ -83,6 +90,13 @@ span{
   flex: 100%;
   max-width: 100%;
 }
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  padding-left: 20px;
+}
 }
 
  .indexLinks:link{
@@ -122,11 +136,6 @@ span{
    padding-left: 20px;
  }
 
- .row {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
-}
 
 .column {
   flex: 25%;
