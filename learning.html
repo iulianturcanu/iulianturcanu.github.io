@@ -5,6 +5,7 @@
       <meta charset="utf-8">
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
       <script src="assets/scripts.js"></script>
+      <script src="assets/modal.js"></script>
       <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
       <link rel="stylesheet" href="assets/style.css"/>
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -19,20 +20,62 @@
         </br>
         <div class="row">
             <div class="column">
-              <img src="media/craking.jpg">
-              <img src="media/dataStruct.jpg">
+              <img src="media/craking.jpg" id="crackingImg">
+              <img src="media/dataStruct.jpg" id="dataStructImg">
             </div>  
             <div class="column"> 
-              <img src="media/effectJava.jpg">
-              <img src="media/pragmaticProg.jpg">
+              <img src="media/effectJava.jpg" id="effectJavaImg">
+              <img src="media/pragmaticProg.jpg" id="pragmaticImg">
             </div>
             <div class="column">  
-              <img src="media/cleanCoder.jpg">
-              <img src="media/cleanCode.jpg">
+              <img src="media/cleanCoder.jpg" id="cleanCoderImg">
+              <img src="media/cleanCode.jpg" id="cleanCodeImg">
             </div>
         </div>
         <h3 style="text-align: center;">Enjoyed this page?<a href="./about.html"> Learn more about me</a>, or go back <a href="./index.html">home</a>.</h3>
       </div>
+      <div id="crackingModal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <h3>Get ready to conquer the industry!</h3>
+          <p>There is a reason this book has such raving reviews. This is the book to get you through your first job interview.</p>
+        </div>
+    </div>
+    <div id="dataModal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <h3>A must have to start the algorithmic thinking journey.</h3>
+          <p>This book will ease you into the world of data structures and algorithms.</p>
+        </div>
+    </div>
+    <div id="pragmaticModal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <h3>Best practices for a beginner (and not only) developer.</h3>
+          <p>Want do learn to do things right. Read this book.</p>
+        </div>
+    </div>
+    <div id="cleanCoderModal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <h3>Got your first job?.</h3>
+          <p>You need this book to learn how to do it well.</p>
+        </div>
+    </div>
+    <div id="cleanCodeModal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <h3>If you get just one programming book, this is it.</h3>
+          <p>There is a difference between writing code that works and writing good code. Just read this book and find out for yourself.</p>
+        </div>
+    </div>
+    <div id="effectiveModal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <h3>Learn the Java way.</h3>
+          <p>Answers to how and why do all things Java.</p>
+        </div>
+    </div>
       <div id = "includedFooter"></div>
       </div>
     </body>

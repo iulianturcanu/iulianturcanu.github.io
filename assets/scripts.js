@@ -4,3 +4,7 @@ $(document).ready(function() {
   $("#includedFooter").load("footer.html");
 
 });
+
+
+
+
