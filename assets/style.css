@@ -106,3 +106,8 @@ span{
  .contentManager{
   padding-bottom: 2.5rem;
  }
+ 
+ #aboutContent{
+   text-align: justify;
+   padding-left: 20px;
+ }
