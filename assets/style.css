@@ -43,6 +43,18 @@ span{
   padding-right: 40px;
 }
 
+#footerNavBar{
+  text-align: center;
+  list-style: none;
+}
+
+#footerNavBar li{
+  text-align: center;
+  display: inline-block;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -75,17 +87,31 @@ span{
   padding-bottom: 5px;
 }
 
-#navbar{
+#headerNavBar{
   text-align: center;
   list-style: none;
 }
 
-#navbar li{
+#headerNavBar li{
   text-align: center;
   display: inline-block;
-  padding-left: auto;
-  padding-right: auto;
+  padding-left: 10px;
+  padding-right: 10px;
 }
+
+#footerNavBar{
+  text-align: center;
+  list-style: none;
+}
+
+#footerNavBar li{
+  text-align: center;
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+
 #resume{
   font-family: Montserrat;
 }
