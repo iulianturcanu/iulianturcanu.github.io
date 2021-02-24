@@ -82,8 +82,9 @@ span{
 #navbar li{
   text-align: center;
   display: inline-block;
-  padding-left: auto;
-  padding-right: auto;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 10px;
 }
 #resume{
   font-family: Montserrat;
