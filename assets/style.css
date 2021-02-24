@@ -6,8 +6,6 @@
     width: 30%;
     height: auto;
     margin-left: auto;
-    border-radius: 50%;
-    align-self: center;
 }
 
 span{
@@ -31,7 +29,7 @@ span{
   padding-bottom: 10px;
 }
 
-#headerNavBar{
+#navbar{
   text-align: center;
   list-style: none;
 }
@@ -42,7 +40,6 @@ span{
   padding-left: 40px;
   padding-right: 40px;
 }
-
 
 .row {
   display: flex;
@@ -60,9 +57,7 @@ span{
 /* on mobile */
 @media screen and (max-width: 550px){
 #image{
-    align-self: center;
     width: 30%;
-    border-radius: 50%;
 }
 
 span{
@@ -81,14 +76,12 @@ span{
   list-style: none;
 }
 
-#headerNavBar li{
+#navbar li{
   text-align: center;
   display: inline-block;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: auto;
+  padding-right: auto;
 }
-
-
 #resume{
   font-family: Montserrat;
 }
