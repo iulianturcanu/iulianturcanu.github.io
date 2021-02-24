@@ -3,6 +3,8 @@
 /* on PC */
 @media screen and (min-width: 550px){
 #image{
+    padding: auto;
+    margin: auto;
     width: 20%;
     height: auto;
     border-radius:50%;
