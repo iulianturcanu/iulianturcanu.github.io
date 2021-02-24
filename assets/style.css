@@ -25,12 +25,12 @@ span{
   font-family: Montserrat;
 }
 
-#includedHeader{
+/* #includedHeader{
   margin-top: 50px;
   margin-bottom: 20px;
   padding-top: 50px;
   padding-bottom: 20px;
-}
+} */
 
 /* #navbar{
   text-align: center;
@@ -117,7 +117,7 @@ span{
    text-decoration: none;
  }
 
- /* #footer{
+ #footer{
    position: absolute;
    bottom: 0;
    left: 0;
@@ -127,7 +127,7 @@ span{
    color: black;
    font-family: Montserrat;
    font-size: x-small;
- } */
+ }
 
  .pageWrapper{
   position: relative;
