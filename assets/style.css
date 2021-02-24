@@ -117,7 +117,7 @@ span{
    text-decoration: none;
  }
 
- /* #footer{
+ #footer{
    position: absolute;
    bottom: 0;
    left: 0;
@@ -127,7 +127,7 @@ span{
    color: black;
    font-family: Montserrat;
    font-size: x-small;
- } */
+ }
 
  .pageWrapper{
   position: relative;
