@@ -30,13 +30,13 @@ span{
   margin-bottom: 20px;
   padding-top: 40px;
   padding-bottom: 40px;
-  font-family: Montserrat;
-  position: fixed;
 }
 
 #navbar{
   text-align: center;
   list-style: none;
+  font-family: Montserrat;
+  position: fixed;
 }
 
 #navbar li{
