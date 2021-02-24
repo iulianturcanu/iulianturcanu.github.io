@@ -1,2 +1,2 @@
 # iulianturcanu.github.io
-My personal static website.
+My personal  website.
