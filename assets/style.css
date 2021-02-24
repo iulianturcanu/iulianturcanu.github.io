@@ -36,24 +36,13 @@ span{
   list-style: none;
 }
 
-#headerNavBar li{
+#navbar li{
   text-align: center;
   display: inline-block;
   padding-left: 40px;
   padding-right: 40px;
 }
 
-#footerNavBar{
-  text-align: center;
-  list-style: none;
-}
-
-#footerNavBar li{
-  text-align: center;
-  display: inline-block;
-  padding-left: 40px;
-  padding-right: 40px;
-}
 
 .row {
   display: flex;
@@ -87,24 +76,12 @@ span{
   padding-bottom: 5px;
 }
 
-#headerNavBar{
+#navbar{
   text-align: center;
   list-style: none;
 }
 
 #headerNavBar li{
-  text-align: center;
-  display: inline-block;
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
-#footerNavBar{
-  text-align: center;
-  list-style: none;
-}
-
-#footerNavBar li{
   text-align: center;
   display: inline-block;
   padding-left: 10px;
