@@ -36,7 +36,7 @@ span{
   text-align: center;
   list-style: none;
   font-family: Montserrat;
-  position: fixed;
+  position: absolute;
 }
 
 #navbar li{
