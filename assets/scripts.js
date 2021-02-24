@@ -1,43 +1,43 @@
 
-$(document).ready(function() {
-  $("#includedHeader").load("header.html");
-  $("#includedFooter").load("footer.html");
+// $(document).ready(function() {
+//   $("#includedHeader").load("header.html");
+//   $("#includedFooter").load("footer.html");
 
-  $("#crackingImg").on('click', function() {
+//   $("#crackingImg").on('click', function() {
 
-    $("#crackingModal").show();
-  });
+//     $("#crackingModal").show();
+//   });
 
-$("#effectJavaImg").on('click', function() {
+// $("#effectJavaImg").on('click', function() {
 
-    $("#effectiveModal").show();
-  });
+//     $("#effectiveModal").show();
+//   });
 
-$("#pragmaticImg").on('click', function() {
+// $("#pragmaticImg").on('click', function() {
 
-    $("#pragmaticModal").show();
-  });
+//     $("#pragmaticModal").show();
+//   });
 
-$("#cleanCodeImg").on('click', function() {
+// $("#cleanCodeImg").on('click', function() {
 
-    $("#cleanCodeModal").show();
-  });
+//     $("#cleanCodeModal").show();
+//   });
 
-$("#cleanCoderImg").on('click', function() {
+// $("#cleanCoderImg").on('click', function() {
 
-    $("#cleanCoderModal").show();
-  });
+//     $("#cleanCoderModal").show();
+//   });
 
-$("#dataStructImg").on('click', function() {
+// $("#dataStructImg").on('click', function() {
 
-    $("#dataModal").show();
-  });    
+//     $("#dataModal").show();
+//   });    
 
-$(".close").on('click', function(){
-    $(".modal").hide();
-});
+// $(".close").on('click', function(){
+//     $(".modal").hide();
+// });
 
-});
+// });
 
 
 
