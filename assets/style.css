@@ -26,13 +26,13 @@ span{
 }
 
 #header{
-  margin-top: 50px;
+  margin-top: 20px;
   margin-bottom: 20px;
-  padding-top: 50px;
+  padding-top: 20px;
   padding-bottom: 20px;
 }
 
-/* #navbar{
+#navbar{
   text-align: center;
   list-style: none;
 }
@@ -42,7 +42,7 @@ span{
   display: inline-block;
   padding-left: 40px;
   padding-right: 40px;
-} */
+}
 
 .row {
   display: flex;
