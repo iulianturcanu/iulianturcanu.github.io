@@ -67,19 +67,14 @@ span{
   text-align: center;
   color: black;
   font-family: Montserrat;
-  font-size: medium;
+  font-size: small;
   margin-top: 20px;
   margin-bottom: 20px;
   padding-top: 40px;
   padding-bottom: 40px;
 }
 
-#footer a{
-  padding-left: 40px;
-  padding-right: 40px;
-}
-
-#footer p{
+.fa{
   padding-left: 40px;
   padding-right: 40px;
 }
