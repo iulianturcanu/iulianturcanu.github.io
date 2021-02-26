@@ -95,12 +95,34 @@ span{
 }
 .container{
   align-self: center;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   margin-left: 40px;
   margin-right: 40px;
   padding: 20px;
 
+}
+
+.image img{
+  height: 120px;
+  width: auto;
+  max-width: 100%
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+
+
+.image {
+  flex-basis: 40%
+}
+
+.description {
+  padding-left: 20px;
 }
 
 
