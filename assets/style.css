@@ -115,6 +115,10 @@ span{
   justify-content: center
 }
 
+.container p{
+  text-align: center;
+}
+
 
 
 .image {
