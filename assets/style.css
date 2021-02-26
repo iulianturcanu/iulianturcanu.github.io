@@ -99,12 +99,12 @@ span{
   margin-bottom: 20px;
   margin-left: 40px;
   margin-right: 40px;
-  padding: 20px;
+  padding: 60px;
 
 }
 
 .image img{
-  height: 120px;
+  height: 200px;
   width: auto;
   max-width: 100%
 }
