@@ -175,6 +175,43 @@ span{
   padding-right: 20px;
 
 }
+#footer{
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  color: black;
+  font-family: Montserrat;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-top: 20px;
+  padding-bottom:10px;
+  font-size: small;
+}
+
+
+.fa-github{
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.fa-linkedin{
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.fa-envelope{
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 }
 
  .indexLinks:link{
