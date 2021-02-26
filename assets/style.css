@@ -93,6 +93,15 @@ span{
   font-size:large;
   font-family: Montserrat;
 }
+.container{
+  align-self: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 40px;
+  margin-right: 40px;
+  padding: 20px;
+
+}
 
 
 }
