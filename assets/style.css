@@ -77,6 +77,22 @@ span{
   font-size: large;
 }
 
+.fa-linkedin{
+  margin-left: 40px;
+  margin-right: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-size: large;
+}
+
+.fa-envelope{
+  margin-left: 40px;
+  margin-right: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-size: large;
+}
+
 
 }
 
