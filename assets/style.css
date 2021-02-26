@@ -10,6 +10,10 @@
     border-radius:50%;
 }
 
+span{
+  padding: auto;
+  margin: auto;
+}
 
 #content{
   display: flex;
@@ -138,6 +142,9 @@
 
 }
 
+span{
+  width: 100%
+}
 
 #includedHeader{
   margin-top: 10px;
