@@ -74,7 +74,6 @@ span{
   margin-right: 40px;
   padding-left: 40px;
   padding-right: 40px;
-  font-size: large;
 }
 
 .fa-linkedin{
@@ -82,7 +81,6 @@ span{
   margin-right: 40px;
   padding-left: 40px;
   padding-right: 40px;
-  font-size: large;
 }
 
 .fa-envelope{
@@ -90,7 +88,10 @@ span{
   margin-right: 40px;
   padding-left: 40px;
   padding-right: 40px;
-  font-size: large;
+}
+#containerLink{
+  font-size:large;
+  font-family: Montserrat;
 }
 
 
