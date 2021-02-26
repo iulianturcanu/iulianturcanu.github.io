@@ -62,10 +62,12 @@ span{
   font-size: small;
 }
 
+#aboutContent{
+  text-align: justify;
+  padding-left: 150px;
+  padding-right: 150px;
 
-
-
-
+}
 
 
 }
@@ -107,7 +109,12 @@ span{
   font-family: Montserrat;
 }
 
+#aboutContent{
+  text-align: justify;
+  padding-left: 20px;
+  padding-right: 20px;
 
+}
 }
 
  .indexLinks:link{
@@ -120,7 +127,7 @@ span{
    text-decoration: none;
  }
 
- #footer{
+ /* #footer{
    position: fixed;
    bottom: 0;
    left: 0;
@@ -133,7 +140,7 @@ span{
    margin-bottom: 10px;
    padding-top: 20px;
    padding-bottom: 10px;
- }
+ } */
 
  .pageWrapper{
   position: relative;
@@ -145,10 +152,7 @@ span{
   padding-bottom: 2.5rem;
  }
  
- #aboutContent{
-   text-align: justify;
-   padding-left: 20px;
- }
+
 
 
 
