@@ -1,3 +1,4 @@
+/* --- Base Styles --- */
 body {
   font-family: 'Montserrat', Arial, sans-serif;
   background: #f8f9fa;
@@ -8,8 +9,43 @@ body {
 header {
   background: #fff;
   box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+  width: 100%;
+  margin: 0;
+  left: 0;
+  right: 0;
+  box-sizing: border-box;
 }
 
+footer {
+  background: #f1f3f6;
+  padding: 1.5rem 0 0.5rem 0;
+  text-align: center;
+  margin-top: 2rem;
+  width: 100%;
+  margin: 0;
+  left: 0;
+  right: 0;
+  box-sizing: border-box;
+}
+
+.containerLink a {
+  margin: 0 0.7rem;
+  color: #222;
+  font-size: 1.5rem;
+  transition: color 0.2s;
+}
+
+.containerLink a:hover {
+  color: #0077ff;
+}
+
+#footer-copyright {
+  font-size: 0.95rem;
+  color: #888;
+  margin-top: 0.7rem;
+}
+
+/* --- Navigation Bar --- */
 .headerNavBar {
   display: flex;
   justify-content: center;
@@ -18,6 +54,8 @@ header {
   margin: 0;
   padding: 1.2rem 0;
   gap: 2.5rem;
+  width: 100%;
+  flex-direction: row;
 }
 
 .headerNavBar li {
@@ -39,7 +77,7 @@ header {
   background: #f0f7ff;
 }
 
-/* Center content for index.html */
+/* --- Index Page Content --- */
 .pageWrapper {
   display: flex;
   justify-content: center;
@@ -96,71 +134,7 @@ h3 {
   color: #005bb5;
 }
 
-footer {
-  background: #f1f3f6;
-  padding: 1.5rem 0 0.5rem 0;
-  text-align: center;
-  margin-top: 2rem;
-}
-
-.containerLink a {
-  margin: 0 0.7rem;
-  color: #222;
-  font-size: 1.5rem;
-  transition: color 0.2s;
-}
-
-.containerLink a:hover {
-  color: #0077ff;
-}
-
-#footer-copyright {
-  font-size: 0.95rem;
-  color: #888;
-  margin-top: 0.7rem;
-}
-
-@media (max-width: 600px) {
-  .contentManager {
-    padding: 1rem;
-    max-width: 95vw;
-  }
-  .headerNavBar {
-    flex-direction: column;
-    gap: 1rem;
-  }
-  .pageWrapper {
-    padding: 0 0.5rem;
-  }
-}
-
-/* --- Responsive Books Page Fixes --- */
-
-/* Ensure header and footer are full width and centered */
-header, footer {
-  width: 100%;
-  margin: 0;
-  left: 0;
-  right: 0;
-  box-sizing: border-box;
-}
-
-.headerNavBar {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  list-style: none;
-  margin: 0;
-  padding: 1.2rem 0;
-  gap: 2.5rem;
-  width: 100%;
-}
-
-.headerNavBar li {
-  display: inline;
-}
-
-/* Books page wrapper (use this class in books.html) */
+/* --- Books Page --- */
 .booksWrapper {
   max-width: 900px;
   margin: 0 auto;
@@ -168,7 +142,6 @@ header, footer {
   display: block;
 }
 
-/* Book containers */
 .container {
   display: flex;
   align-items: flex-start;
@@ -213,7 +186,7 @@ header, footer {
   word-break: break-word;
 }
 
-/* Responsive adjustments */
+/* --- Responsive Adjustments --- */
 @media (max-width: 900px) {
   .booksWrapper {
     max-width: 100vw;
@@ -244,78 +217,31 @@ header, footer {
     flex-direction: column;
     gap: 1rem;
   }
+  .contentManager {
+    padding: 1rem;
+    max-width: 95vw;
+  }
+  .pageWrapper {
+    padding: 0 0.5rem;
+  }
 }
 
-/* Email popup styles */
-.email-popup-overlay {
-  position: fixed;
-  top: 0; left: 0; right: 0; bottom: 0;
-  background: rgba(0,0,0,0.4);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 9999;
-}
+/* --- Language Toggle --- */
+body.lang-en .lang-fr { display: none; }
+body.lang-fr .lang-en { display: none; }
 
-.email-popup-content {
-  background: #fff;
-  padding: 2rem 1.5rem;
-  border-radius: 12px;
-  box-shadow: 0 4px 24px rgba(0,0,0,0.15);
-  min-width: 320px;
-  max-width: 90vw;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-}
-
-.email-popup-close {
+.lang-toggle-btn {
   position: absolute;
-  top: 0.7rem;
-  right: 1rem;
-  font-size: 1.5rem;
-  cursor: pointer;
-  color: #888;
-}
-
-#email-popup-form label {
-  font-weight: 600;
-  margin-top: 0.5rem;
-}
-
-#email-popup-form input,
-#email-popup-form textarea {
-  width: 100%;
-  padding: 0.5rem;
-  margin-top: 0.2rem;
-  margin-bottom: 0.8rem;
-  border: 1px solid #ccc;
-  border-radius: 6px;
-  font-size: 1rem;
-  font-family: inherit;
-  box-sizing: border-box;
-}
-
-#email-popup-form button {
-  background: #0077ff;
-  color: #fff;
+  right: 2rem;
+  top: 1.2rem;
+  background: #f1f3f6;
   border: none;
   border-radius: 6px;
-  padding: 0.6rem 1.2rem;
-  font-size: 1rem;
+  padding: 0.3rem 0.8rem;
   font-weight: 600;
   cursor: pointer;
-  transition: background 0.2s;
-}
-
-#email-popup-form button:hover {
-  background: #005bb5;
-}
-
-#email-popup-status {
-  color: #0077ff;
   font-size: 1rem;
-  margin-top: 0.5rem;
-  text-align: center;
+}
+@media (max-width: 700px) {
+  .lang-toggle-btn { right: 1rem; top: 1rem; }
 }

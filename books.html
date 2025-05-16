@@ -1,83 +1,95 @@
-<!DOCTYPE HTML >
-    <html lang="en">
-    <head>
-      <title>Iulian Turcanu's Learning Resources</title>
-      <meta charset="utf-8">
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-      <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
-      <link rel="stylesheet" href="assets/style.css"/>
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" type="text/css">
-      <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
-    </head>
-    <body>
-      <header id="header">
-        <nav class = "headerNavBar" id = "navbar">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="learning.html">Awesome books</a></li>
-          <li><a href="assets/Resume_IulianTurcanu.pdf" target="blank" title = "pdf resume" >Download My Resume</a></li>
-        </ul>
-      </nav>
-      </header>
-        <div class="booksWrapper">
-          <h2 style="text-align:center;">Awesome books that are absolutely worth your time</h2>
-        <div class = "container">
-          <div class = "image">
-            <a href="https://www.goodreads.com/book/show/3735293-clean-code?from_search=true&from_srp=true&qid=78qPEwmzLL&rank=1" target="_blank"><img src="media/cleanCode.jpg"></a>
-          </div>
-          <div class = "description">
-            <p>I absolutely love this book. Clean Code is one of the fundamental reads every developer should have on their shelf. It greatly deepened my understanding of the principles that guide writing clean, maintainable, and effective code—whether for personal projects or production systems. A true must-read for anyone serious about software development.</p>
-          </div> 
-        </div> 
-        <div class = "container">
-          <div class = "image">
-            <a href="https://www.goodreads.com/book/show/34927404-effective-java?from_search=true&from_srp=true&qid=YfCoUcG1Rq&rank=1" target="_blank"><img src="media/effectJava.jpg"></a>
-          </div>
-          <div class = "description">
-            <p>Another essential read for any Java developer. Effective Java has become my go-to reference for day-to-day development. The insights it offers are incredibly valuable and have had a lasting impact on how I write and structure Java code.</p>
-        </div> 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Iulian Turcanu's Learning Resources</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
+  <link rel="stylesheet" href="assets/style.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+</head>
+<body>
+  <header id="header" style="position:relative;">
+    <nav class="headerNavBar" id="navbar">
+      <ul>
+        <li><a href="index.html"><span class="lang-en">Home</span><span class="lang-fr">Accueil</span></a></li>
+        <li><a href="books.html"><span class="lang-en">Books I Like</span><span class="lang-fr">Livres que j'aime</span></a></li>
+        <li><a href="assets/Resume_IulianTurcanu.pdf" target="_blank" title="pdf resume"><span class="lang-en">Download My Resume</span><span class="lang-fr">Télécharger mon CV</span></a></li>
+      </ul>
+      <button class="lang-toggle-btn" id="lang-toggle">FR</button>
+    </nav>
+  </header>
+  <div class="booksWrapper">
+    <h2 style="text-align:center;">
+      <span class="lang-en">Awesome books that are absolutely worth your time</span>
+      <span class="lang-fr">Des livres formidables qui valent vraiment votre temps</span>
+    </h2>
+    <div class="container">
+      <div class="image">
+        <a href="https://www.goodreads.com/book/show/3735293-clean-code?from_search=true&from_srp=true&qid=78qPEwmzLL&rank=1" target="_blank"><img src="media/cleanCode.jpg" alt="Clean Code"></a>
       </div>
-      <div class = "container">
-        <div class = "image">
-          <a href="https://www.goodreads.com/book/show/54845619-cracking-the-coding-interview?ac=1&from_search=true&qid=3AMxZrgYqp&rank=2" target="_blank"><img src="media/craking.jpg"></a>
-        </div>
-        <div class = "description">
-          <p>This book is a confidence booster for anyone preparing for technical interviews. It’s like a comprehensive computer science course condensed into a month of focused reading and practice. An invaluable resource for sharpening problem-solving skills and interview readiness.</p>
-        </div> 
-      </div> 
-      <div class = "container">
-        <div class = "image">
-          <a href="https://www.goodreads.com/book/show/10284614-the-clean-coder?ac=1&from_search=true&qid=33npewi20W&rank=1" target="_blank"><img src="media/cleanCoder.jpg"></a>
-        </div>
-        <div class = "description">
-          <p>The Clean Coder remains a classic and an insightful read for developers at any stage. While some examples and practices reflect the time it was written, the core principles are timeless. A refreshed edition that addresses today’s tools and development practices would make it even more relevant and impactful.</p>
-      </div> 
+      <div class="description">
+        <p class="lang-en">I absolutely love this book. Clean Code is one of the fundamental reads every developer should have on their shelf. It greatly deepened my understanding of the principles that guide writing clean, maintainable, and effective code—whether for personal projects or production systems. A true must-read for anyone serious about software development.</p>
+        <p class="lang-fr">J'adore ce livre. "Clean Code" est une lecture fondamentale que chaque développeur devrait avoir dans sa bibliothèque. Il a considérablement approfondi ma compréhension des principes qui guident l'écriture d'un code propre, maintenable et efficace, que ce soit pour des projets personnels ou des systèmes en production. Un incontournable pour tous ceux qui prennent le développement logiciel au sérieux.</p>
+      </div>
     </div>
-    <div class = "container">
-      <div class = "image">
-        <a href="https://www.goodreads.com/book/show/4099.The_Pragmatic_Programmer?ac=1&from_search=true&qid=DzbUu8NyJ7&rank=1" target="_blank"><img src="media/pragmaticProg.jpg"></a>
+    <div class="container">
+      <div class="image">
+        <a href="https://www.goodreads.com/book/show/34927404-effective-java?from_search=true&from_srp=true&qid=YfCoUcG1Rq&rank=1" target="_blank"><img src="media/effectJava.jpg" alt="Effective Java"></a>
       </div>
-      <div class = "description">
-        <p>The Pragmatic Programmer is filled with timeless lessons that continue to resonate in modern software development. Its emphasis on craftsmanship, continuous learning, and pragmatic thinking makes it just as relevant today as when it was first published. A must-read for anyone who wants to build not just better software, but a better approach to developing it.</p>
-      </div> 
-    </div> 
-    <div class = "container">
-      <div class = "image">
-        <a href="https://www.goodreads.com/book/show/300092.Data_Structures_and_Algorithms_in_Java?ac=1&from_search=true&qid=H3RSQAanRD&rank=1" target="_blank"><img src="media/dataStruct.jpg"></a>
+      <div class="description">
+        <p class="lang-en">Another essential read for any Java developer. Effective Java has become my go-to reference for day-to-day development. The insights it offers are incredibly valuable and have had a lasting impact on how I write and structure Java code.</p>
+        <p class="lang-fr">Un autre livre essentiel pour tout développeur Java. "Effective Java" est devenu ma référence quotidienne pour le développement. Les conseils qu'il offre sont extrêmement précieux et ont eu un impact durable sur ma façon d'écrire et de structurer du code Java.</p>
       </div>
-      <div class = "description">
-        <p>This book offers a well-structured and thorough journey into the complex world of data structures and algorithms. It breaks down core concepts in a clear and approachable way, making it an excellent resource for developers who want to deepen their understanding and improve their problem-solving abilities. A valuable companion for both academic learning and real-world application.</p>
-    </div> 
+    </div>
+    <div class="container">
+      <div class="image">
+        <a href="https://www.goodreads.com/book/show/54845619-cracking-the-coding-interview?ac=1&from_search=true&qid=3AMxZrgYqp&rank=2" target="_blank"><img src="media/craking.jpg" alt="Cracking the Coding Interview"></a>
+      </div>
+      <div class="description">
+        <p class="lang-en">This book is a confidence booster for anyone preparing for technical interviews. It’s like a comprehensive computer science course condensed into a month of focused reading and practice. An invaluable resource for sharpening problem-solving skills and interview readiness.</p>
+        <p class="lang-fr">Ce livre est un véritable booster de confiance pour tous ceux qui préparent des entretiens techniques. C'est comme un cours complet d'informatique condensé en un mois de lecture et de pratique intensives. Une ressource inestimable pour affûter ses compétences en résolution de problèmes et se préparer aux entretiens.</p>
+      </div>
+    </div>
+    <div class="container">
+      <div class="image">
+        <a href="https://www.goodreads.com/book/show/10284614-the-clean-coder?ac=1&from_search=true&qid=33npewi20W&rank=1" target="_blank"><img src="media/cleanCoder.jpg" alt="The Clean Coder"></a>
+      </div>
+      <div class="description">
+        <p class="lang-en">The Clean Coder remains a classic and an insightful read for developers at any stage. While some examples and practices reflect the time it was written, the core principles are timeless. A refreshed edition that addresses today’s tools and development practices would make it even more relevant and impactful.</p>
+        <p class="lang-fr">"The Clean Coder" reste un classique et une lecture enrichissante pour les développeurs à tout niveau. Bien que certains exemples et pratiques reflètent l'époque de sa rédaction, les principes fondamentaux sont intemporels. Une édition actualisée qui aborderait les outils et pratiques actuels serait encore plus pertinente et percutante.</p>
+      </div>
+    </div>
+    <div class="container">
+      <div class="image">
+        <a href="https://www.goodreads.com/book/show/4099.The_Pragmatic_Programmer?ac=1&from_search=true&qid=DzbUu8NyJ7&rank=1" target="_blank"><img src="media/pragmaticProg.jpg" alt="The Pragmatic Programmer"></a>
+      </div>
+      <div class="description">
+        <p class="lang-en">The Pragmatic Programmer is filled with timeless lessons that continue to resonate in modern software development. Its emphasis on craftsmanship, continuous learning, and pragmatic thinking makes it just as relevant today as when it was first published. A must-read for anyone who wants to build not just better software, but a better approach to developing it.</p>
+        <p class="lang-fr">"The Pragmatic Programmer" regorge de leçons intemporelles qui résonnent encore dans le développement logiciel moderne. Son accent sur l'artisanat, l'apprentissage continu et la pensée pragmatique le rend aussi pertinent aujourd'hui qu'à sa première publication. Un incontournable pour tous ceux qui veulent non seulement créer de meilleurs logiciels, mais aussi adopter une meilleure approche du développement.</p>
+      </div>
+    </div>
+    <div class="container">
+      <div class="image">
+        <a href="https://www.goodreads.com/book/show/300092.Data_Structures_and_Algorithms_in_Java?ac=1&from_search=true&qid=H3RSQAanRD&rank=1" target="_blank"><img src="media/dataStruct.jpg" alt="Data Structures and Algorithms in Java"></a>
+      </div>
+      <div class="description">
+        <p class="lang-en">This book offers a well-structured and thorough journey into the complex world of data structures and algorithms. It breaks down core concepts in a clear and approachable way, making it an excellent resource for developers who want to deepen their understanding and improve their problem-solving abilities. A valuable companion for both academic learning and real-world application.</p>
+        <p class="lang-fr">Ce livre propose un parcours structuré et approfondi dans le monde complexe des structures de données et des algorithmes. Il explique les concepts clés de manière claire et accessible, ce qui en fait une excellente ressource pour les développeurs souhaitant approfondir leur compréhension et améliorer leurs compétences en résolution de problèmes. Un compagnon précieux pour l'apprentissage académique comme pour l'application pratique.</p>
+      </div>
+    </div>
   </div>
-      <footer id="footer">
-        <div class="containerLink">
-          <a href="https://github.com/iulianturcanu" class="fa fa-github" target="_blank"></a>
-          <a href="https://www.linkedin.com/in/iulian-turcanu-403703180/" class="fa fa-linkedin" target="_blank"></a>
-          <a href="iudturcanu@gmail.com" title="iudturcanu@gmail.com" class="fa fa-envelope"></a>
-        </div>  
-        <div id="footer-copyright">
-         <p>&copy; Copyright 2021 Iulian Turcanu</p>
-      </div>   
-      </footer>
-    </body>
+  <footer id="footer">
+    <div class="containerLink">
+      <a href="https://github.com/iulianturcanu" class="fa fa-github" target="_blank"></a>
+      <a href="https://www.linkedin.com/in/iulian-turcanu-403703180/" class="fa fa-linkedin" target="_blank"></a>
+      <a href="mailto:iudturcanu@gmail.com" title="iudturcanu@gmail.com" class="fa fa-envelope"></a>
+    </div>
+    <div id="footer-copyright">
+      <p>&copy; Copyright 2025 Iulian Turcanu</p>
+    </div>
+  </footer>
+  <script src="assets/lang-toggle.js"></script>
+</body>
 </html>

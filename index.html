@@ -1,7 +1,6 @@
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-151914454-1"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -13,49 +12,78 @@
   <meta charset="utf-8">
   <meta name="robots" content="noindex, nofollow" />
   <meta name="description" content="Iulian Turcanu personal website.">
-  <meta name="title" content="This is my personal website.">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
   <link rel="stylesheet" href="assets/style.css"/>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
 </head>
 <body>
-  <header>
+  <header style="position:relative;">
     <nav>
       <ul class="headerNavBar" id="navbar">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="books.html">Awesome books</a></li>
-        <li><a href="assets/Resume_IulianTurcanu.pdf" target="_blank" title="pdf resume">Download My Resume</a></li>
+        <li><a href="index.html"><span class="lang-en">Home</span><span class="lang-fr">Accueil</span></a></li>
+        <li><a href="books.html"><span class="lang-en">Books I Like</span><span class="lang-fr">Livres que j'aime</span></a></li>
+        <li><a href="assets/Resume_IulianTurcanu.pdf" target="_blank" title="pdf resume"><span class="lang-en">Download My Resume</span><span class="lang-fr">Télécharger mon CV</span></a></li>
       </ul>
+      <button class="lang-toggle-btn" id="lang-toggle">FR</button>
     </nav>
   </header>
   <main>
     <div class="pageWrapper">
-<div class="contentManager" id="content">
-  <img src="media/My_pic.jpeg" alt="Nice pic of me" id="image">
-  <h3>About Me</h3>
-  <p>
-    I am a passionate and dedicated Software Developer with a strong foundation in backend and full-stack development. My work focuses on building scalable, high-performance systems using modern technologies like Java, Scala, Python, JavaScript, React, Spring Boot, and microservices.
-  </p>
-  <p>
-    With solid knowledge of object-oriented programming (OOP) and continuous integration/continuous deployment (CI/CD), I take pride in writing clean, maintainable, and robust code that exceeds client and team expectations. I am well-versed in software development lifecycle (SDLC) principles and thrive in agile, fast-paced environments where adaptability, collaboration, and problem-solving are key.
-  </p>
-  <p>
-    <strong>My technical toolkit includes hands-on experience with:</strong>
-    <ul style="text-align:left; margin: 0.5em 0 0.5em 1.2em;">
-      <li><strong>Cloud Platforms:</strong> AWS, Google Cloud</li>
-      <li><strong>Distributed Systems:</strong> Kafka, Kubernetes</li>
-      <li><strong>Observability &amp; Monitoring:</strong>Datadog, OpenTelemetry, Grafana</li>
-    </ul>
-  </p>
-  <p>
-    Before entering software development, I came from a background in health sciences, which sharpened my analytical thinking, attention to detail, and methodical approach to solving complex problems. These skills translate well into tech, helping me contribute effectively in both technical and cross-functional teams.
-  </p>
-  <p>
-    When I’m not coding, you’ll likely find me exploring new programming paradigms, reading <a href="books.html">tech books</a>, or enjoying quality time with my family.
-  </p>
-</div>
+      <div class="contentManager" id="content">
+        <img src="media/My_pic.jpeg" alt="Nice pic of me" id="image">
+        <h3>
+          <span class="lang-en">About Me</span>
+          <span class="lang-fr">À propos de moi</span>
+        </h3>
+        <p class="lang-en">
+          I am a passionate and dedicated Software Developer with a strong foundation in backend and full-stack development. My work focuses on building scalable, high-performance systems using modern technologies like Java, Scala, Python, JavaScript, React, Spring Boot, and microservices.
+        </p>
+        <p class="lang-fr">
+          Je suis un développeur logiciel passionné et dévoué, avec une solide expérience en développement backend et full-stack. Mon travail consiste à construire des systèmes évolutifs et performants en utilisant des technologies modernes telles que Java, Scala, Python, JavaScript, React, Spring Boot et les microservices.
+        </p>
+        <p class="lang-en">
+          With solid knowledge of object-oriented programming (OOP) and continuous integration/continuous deployment (CI/CD), I take pride in writing clean, maintainable, and robust code that exceeds client and team expectations. I am well-versed in software development lifecycle (SDLC) principles and thrive in agile, fast-paced environments where adaptability, collaboration, and problem-solving are key.
+        </p>
+        <p class="lang-fr">
+          Avec une solide connaissance de la programmation orientée objet (POO) et de l'intégration/déploiement continus (CI/CD), j'ai à cœur d'écrire un code propre, maintenable et robuste qui dépasse les attentes des clients et de l'équipe. Je maîtrise les principes du cycle de vie du développement logiciel (SDLC) et je m'épanouis dans des environnements agiles et dynamiques où l'adaptabilité, la collaboration et la résolution de problèmes sont essentielles.
+        </p>
+        <p>
+          <strong>
+            <span class="lang-en">My technical toolkit includes hands-on experience with:</span>
+            <span class="lang-fr">Mon arsenal technique comprend une expérience pratique avec :</span>
+          </strong>
+        </p>
+        <ul class="tech-list">
+          <li>
+            <strong><span class="lang-en">Cloud Platforms:</span><span class="lang-fr">Plateformes Cloud :</span></strong>
+            <span class="lang-en">AWS, Google Cloud</span>
+            <span class="lang-fr">AWS, Google Cloud</span>
+          </li>
+          <li>
+            <strong><span class="lang-en">Distributed Systems:</span><span class="lang-fr">Systèmes distribués :</span></strong>
+            <span class="lang-en">Kafka, Kubernetes</span>
+            <span class="lang-fr">Kafka, Kubernetes</span>
+          </li>
+          <li>
+            <strong><span class="lang-en">Observability &amp; Monitoring:</span><span class="lang-fr">Observabilité &amp; supervision :</span></strong>
+            <span class="lang-en">Datadog, OpenTelemetry, Grafana</span>
+            <span class="lang-fr">Datadog, OpenTelemetry, Grafana</span>
+          </li>
+        </ul>
+        <p class="lang-en">
+          Before entering software development, I came from a background in health sciences, which sharpened my analytical thinking, attention to detail, and methodical approach to solving complex problems. These skills translate well into tech, helping me contribute effectively in both technical and cross-functional teams.
+        </p>
+        <p class="lang-fr">
+          Avant de me lancer dans le développement logiciel, j'ai suivi une formation en sciences de la santé, ce qui a aiguisé ma pensée analytique, mon souci du détail et mon approche méthodique pour résoudre des problèmes complexes. Ces compétences se traduisent parfaitement dans la tech et m'aident à contribuer efficacement au sein d'équipes techniques et transverses.
+        </p>
+        <p class="lang-en">
+          When I’m not coding, you’ll likely find me exploring new programming paradigms, reading <a href="books.html">tech books</a>, or enjoying quality time with my family.
+        </p>
+        <p class="lang-fr">
+          Quand je ne code pas, vous me trouverez probablement en train d'explorer de nouveaux paradigmes de programmation, de lire des <a href="books.html">livres techniques</a> ou de passer du temps de qualité avec ma famille.
+        </p>
+      </div>
     </div>
   </main>
   <footer id="footer">
@@ -68,5 +96,6 @@
       <p>&copy; Copyright 2025 Iulian Turcanu</p>
     </div>
   </footer>
+  <script src="assets/lang-toggle.js"></script>
 </body>
 </html>
