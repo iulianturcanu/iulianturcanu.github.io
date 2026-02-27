@@ -1,4 +1,3 @@
-// Handles opening and closing of the contact modal
 (function() {
   const btn = document.getElementById('contact-btn');
   const modal = document.getElementById('contact-modal');
@@ -9,7 +8,6 @@
     closeBtn.addEventListener('click', () => { modal.style.display = 'none'; });
     window.addEventListener('click', e => { if (e.target === modal) modal.style.display = 'none'; });
 
-    // ajax submission to avoid redirect
     const form = document.getElementById('contact-form');
     const statusDiv = document.createElement('div');
     statusDiv.id = 'contact-status';
