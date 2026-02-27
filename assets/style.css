@@ -10,10 +10,8 @@ header {
   background: #fff;
   box-shadow: 0 2px 8px rgba(0,0,0,0.03);
   width: 100%;
-  margin: 0;
-  left: 0;
-  right: 0;
   box-sizing: border-box;
+  position: relative;
 }
 
 footer {
@@ -22,9 +20,6 @@ footer {
   text-align: center;
   margin-top: 2rem;
   width: 100%;
-  margin: 0;
-  left: 0;
-  right: 0;
   box-sizing: border-box;
 }
 
@@ -56,10 +51,6 @@ footer {
   gap: 2.5rem;
   width: 100%;
   flex-direction: row;
-}
-
-.headerNavBar li {
-  /* display: inline;  Not needed with flexbox and gap */
 }
 
 .headerNavBar a {
@@ -211,9 +202,109 @@ footer {
     padding: 1rem;
     max-width: 95vw;
   }
-  .pageWrapper {
-    padding: 0 0.5rem;
+}
+
+@media (max-width: 480px) {
+  .headerNavBar {
+    gap: 0.8rem;
+    padding: 0.8rem 0;
   }
+  .headerNavBar a {
+    font-size: 0.9rem;
+    padding: 0.2rem 0.4rem;
+  }
+  .lang-toggle-btn {
+    padding: 0.2rem 0.5rem;
+    font-size: 0.85rem;
+    right: 0.5rem;
+    top: 0.75rem;
+  }
+  .homePageWrapper {
+    min-height: auto;
+    padding: 1rem 0;
+  }
+  .homeContentManager {
+    margin: 0.5rem 0;
+    padding: 0.8rem 0.5rem;
+  }
+  #image {
+    width: 100px;
+    height: 100px;
+  }
+  .container {
+    padding: 0.8rem;
+    gap: 0.8rem;
+  }
+  .container .image img {
+    width: 80px;
+    height: 120px;
+  }
+  .containerLink a {
+    margin: 0 0.5rem;
+    font-size: 1.2rem;
+  }
+  .booksWrapper {
+    padding: 1rem 0.5rem;
+  }
+}
+
+/* --- Headings --- */
+h1 {
+  text-align: center;
+}
+
+/* --- Contact Modal --- */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background: rgba(0,0,0,0.5);
+}
+.modal-content {
+  background: #fff;
+  margin: 10% auto;
+  padding: 1.5rem;
+  border-radius: 8px;
+  max-width: 500px;
+  width: 90%;
+  box-sizing: border-box;
+}
+.close {
+  float: right;
+  font-size: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+#contact-form label {
+  display: block;
+  margin-top: 0.8rem;
+  font-weight: 600;
+}
+#contact-form textarea,
+#contact-form input[type="email"] {
+  width: 100%;
+  padding: 0.6rem;
+  margin-top: 0.3rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+#contact-form button {
+  margin-top: 1rem;
+  padding: 0.6rem 1.2rem;
+  background: #0077ff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+#contact-form button:hover {
+  background: #005fcc;
 }
 
 /* --- Language Toggle --- */

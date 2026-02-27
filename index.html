@@ -8,22 +8,28 @@
     gtag('js', new Date());
     gtag('config', 'UA-151914454-1');
   </script>
-  <title>Iulian Turcanu's Website</title>
+  <title>Iulian Turcanu - Software Developer & Data Analyst</title>
   <meta charset="utf-8">
-  <meta name="robots" content="noindex, nofollow" />
-  <meta name="description" content="Iulian Turcanu personal website.">
+  <meta name="description" content="Iulian Turcanu is a passionate software developer and data analyst specializing in backend development, full-stack solutions, and scalable systems using Java, Python, React, and microservices.">
+  <meta name="keywords" content="Iulian Turcanu, Turcanu, software developer, data analyst, backend developer, full-stack developer, Java, Python, React, microservices">
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
+  <meta name="author" content="Iulian Turcanu">
+  <meta property="og:title" content="Iulian Turcanu - Software Developer & Data Analyst">
+  <meta property="og:description" content="Passionate software developer and data analyst specializing in scalable systems and modern technologies.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://iulianturcanu.github.io">
+  <link rel="canonical" href="https://iulianturcanu.github.io">
   <link rel="stylesheet" href="assets/style.css"/>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
 </head>
 <body>
-  <header style="position:relative;">
+  <header>
     <nav>
       <ul class="headerNavBar" id="navbar">
         <li><a href="index.html"><span class="lang-en">Home</span><span class="lang-fr">Accueil</span></a></li>
         <li><a href="books.html"><span class="lang-en">Books I Like</span><span class="lang-fr">Livres que j'aime</span></a></li>
-        <li><a href="assets/Resume_IulianTurcanu.pdf" target="_blank" title="pdf resume"><span class="lang-en">Download My Resume</span><span class="lang-fr">Télécharger mon CV</span></a></li>
+        <li><a href="assets/Iulian_Turcanu.pdf" target="_blank" title="pdf resume"><span class="lang-en">Download My Resume</span><span class="lang-fr">Télécharger mon CV</span></a></li>
       </ul>
       <button class="lang-toggle-btn" id="lang-toggle" aria-label="Toggle language">FR</button>
     </nav>
@@ -31,11 +37,11 @@
   <main>
     <div class="homePageWrapper">
       <div class="homeContentManager" id="content">
-        <img src="media/My_pic.jpeg" alt="Nice pic of me" id="image">
-        <h3>
+        <img src="media/My_pic.jpeg" alt="Iulian Turcanu - Software Developer" id="image">
+        <h1>
           <span class="lang-en">About Me</span>
           <span class="lang-fr">À propos de moi</span>
-        </h3>
+        </h1>
         <p class="lang-en">
           I am a passionate and dedicated Software Developer with a strong foundation in backend and full-stack development. My work focuses on building scalable, high-performance systems using modern technologies like Java, Scala, Python, JavaScript, React, Spring Boot, and microservices.
         </p>
@@ -90,12 +96,29 @@
     <div class="containerLink">
       <a href="https://github.com/iulianturcanu" class="fa fa-github" target="_blank"></a>
       <a href="https://www.linkedin.com/in/iulian-turcanu-403703180/" class="fa fa-linkedin" target="_blank"></a>
-      <a href="mailto:iudturcanu@gmail.com" title="iudturcanu@gmail.com" class="fa fa-envelope"></a>
+      <button id="contact-btn" class="fa fa-envelope" aria-label="Contact Iulian"></button>
     </div>
     <div id="footer-copyright">
-      <p>&copy; Copyright 2025 Iulian Turcanu</p>
+      <p>&copy; Copyright 2026 Iulian Turcanu</p>
     </div>
   </footer>
+  <!-- contact form modal -->
+  <div id="contact-modal" class="modal">
+    <div class="modal-content">
+      <span class="close" aria-label="Close">&times;</span>
+      <h2><span class="lang-en">Drop me a line</span><span class="lang-fr">Écrivez‑moi</span></h2>
+      <form id="contact-form" action="https://formspree.io/f/xqedjlby" method="POST">
+        <label for="email"><span class="lang-en">Your Email:</span><span class="lang-fr">Votre email :</span></label>
+        <input type="email" id="email" name="email" required />
+        <label for="subject"><span class="lang-en">Subject (max 128 chars):</span><span class="lang-fr">Sujet (max 128 caractères) :</span></label>
+        <input type="text" id="subject" name="subject" maxlength="128" required />
+        <label for="message"><span class="lang-en">Message (max 1024 chars):</span><span class="lang-fr">Message (max 1024 caractères) :</span></label>
+        <textarea id="message" name="message" maxlength="1024" required></textarea>
+        <button type="submit"><span class="lang-en">Send</span><span class="lang-fr">Envoyer</span></button>
+      </form>
+    </div>
+  </div>
+  <script src="assets/contact.js"></script>
   <script src="assets/lang-toggle.js"></script>
 </body>
 </html>

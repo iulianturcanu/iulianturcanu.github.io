@@ -2,22 +2,19 @@
   const btn = document.getElementById('lang-toggle');
   if (!btn) return;
 
-  // Get language from localStorage or default to 'en'
-  let lang = localStorage.getItem('lang') || 'en';
-
   function setLang(newLang) {
-    lang = newLang;
     document.body.classList.remove('lang-en', 'lang-fr');
-    document.body.classList.add('lang-' + lang);
-    btn.textContent = lang === 'en' ? 'FR' : 'EN';
-    document.documentElement.lang = lang;
-    localStorage.setItem('lang', lang);
+    document.body.classList.add('lang-' + newLang);
+    btn.textContent = newLang === 'en' ? 'FR' : 'EN';
+    document.documentElement.lang = newLang;
+    localStorage.setItem('lang', newLang);
   }
 
   btn.addEventListener('click', function() {
-    setLang(lang === 'en' ? 'fr' : 'en');
+    const currentLang = document.documentElement.lang || localStorage.getItem('lang') || 'en';
+    setLang(currentLang === 'en' ? 'fr' : 'en');
   });
 
-  // Initialize on page load
-  setLang(lang);
+  const savedLang = localStorage.getItem('lang') || 'en';
+  setLang(savedLang);
 })();
